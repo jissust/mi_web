@@ -1,0 +1,26 @@
+.home{
+    background-color: #ed182e;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: 15%;
+}
+.home img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+.home h1{
+    font-size: 4rem;
+}
+.home-text{
+    position: relative;
+    z-index: 10;
+}
+.home-list-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

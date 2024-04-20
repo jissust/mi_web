@@ -1,0 +1,10 @@
+
+.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link.show{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.nav-link{
+    color:#FFFFFF;
+    font-family: "Poppins", sans-serif;
+}
