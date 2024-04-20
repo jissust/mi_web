@@ -9,6 +9,7 @@ import AOS from 'aos';
   styleUrl: './home.component.css'
 })
 export class HomeComponent implements OnInit {
+
   ngOnInit(): void {
     AOS.init({disable: 'mobile'});
     AOS.refresh();

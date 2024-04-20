@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -8,5 +8,14 @@ import { Component } from '@angular/core';
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
-
+  stateScroll  = false;
+  @HostListener('document:scroll')
+  
+  scrollFunction(){
+    if(document.documentElement.scrollTop > 10){
+      this.stateScroll = true
+    }else{
+      this.stateScroll = false
+    }
+  }
 }

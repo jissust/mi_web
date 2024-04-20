@@ -8,3 +8,10 @@
     color:#FFFFFF;
     font-family: "Poppins", sans-serif;
 }
+.navbar{
+    transition: background-color 0.5s ease;
+}
+.stateScroll{
+    background-color: #27244f;
+    transition: background-color 0.5s ease;
+}
