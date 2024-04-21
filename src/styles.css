@@ -3,7 +3,7 @@
 .section::before{
     content: "";
     width: 100%;
-    height: 56px;
+    height: 70px;
     display: block;
 }
 
