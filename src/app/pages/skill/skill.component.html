@@ -1,7 +1,12 @@
-<section class="vh-100 section skill"  id="skill">
+<section class="vh-100 section skill" id="skill">
     <div class="container">
-        <div class="row">
-            <h1>Skills</h1>
-        </div>
+        <h1>Skills</h1>
     </div>
+
+    <app-carrousel
+    [items]="itemsFirst"
+    ></app-carrousel>
+    <app-carrousel
+    [items]="itemsSecond"
+    ></app-carrousel>
 </section>

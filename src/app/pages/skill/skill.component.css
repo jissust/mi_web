@@ -1,3 +1,8 @@
 .skill{
     background-color: #ed182e;
 }
+
+.skill swiper-slide svg{
+    width: 100%;
+    padding: 0 30px;
+}

@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <swiper-container
+      loop="true"
+      navigation="false"
+      slides-per-view="6"
+      speed="500"
+      autoplay="true"
+    >
+      @for(item of items; track items) {
+      <swiper-slide>
+        <img src="{{ item }}" alt="" />
+      </swiper-slide>
+      }
+    </swiper-container>
+  </div>
+</div>
