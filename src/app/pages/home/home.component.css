@@ -41,3 +41,6 @@
     align-items: center;
     gap: 10px;
 }
+.home-list-icons svg{
+    fill:#FFFFFF
+}
