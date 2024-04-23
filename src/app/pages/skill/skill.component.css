@@ -1,6 +1,12 @@
 .skill{
     background-color: #ed182e;
 }
+@media ( max-width:1400px) {
+    .skill .skill-container{
+        display: none;
+    }
+}
+
 .skill .skill-container img{
     width: 150px;
     padding: 20px;
@@ -10,4 +16,13 @@
     .skill .skill-container img{
         width: 130px;
     }   
+}
+
+.skill-container-mobile{
+    display: none;
+}
+@media ( max-width:768px) {
+    .skill-container-mobile{
+        display: block;
+    }
 }

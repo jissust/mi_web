@@ -1,17 +1,20 @@
 <section class="vh-100 section skill" id="skill">
     <div class="container">
         <h1>Skills</h1>
+        
         <div class="skill-container">
             @for(item of items; track items){
                 <img src="{{ item.image }}" alt="{{ item.title }}">    
             }
         </div>
-        <!--<app-carrousel
-        [items]="itemsFirst"
-        ></app-carrousel>
-        
-        <app-carrousel
-        [items]="itemsSecond"
-        ></app-carrousel>-->
+        <div class="skill-container-mobile">
+            <app-carrousel
+            [items]="itemsFirst"
+            ></app-carrousel>
+            
+            <app-carrousel
+            [items]="itemsSecond"
+            ></app-carrousel>
+        </div>
     </div>
 </section>
