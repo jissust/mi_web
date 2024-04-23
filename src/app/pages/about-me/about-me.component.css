@@ -1,7 +1,12 @@
 .about-me{
     background-color: #27244f;
     color:#FFFFFF;
+    padding-bottom: 70px;
 }
 .about-me-text{
     text-align: justify;
+}
+.about-me-text-container{
+    max-width: 800px;
+    text-align: center;
 }
