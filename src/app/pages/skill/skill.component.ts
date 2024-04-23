@@ -10,21 +10,67 @@ import { CarrouselComponent } from './components/carrousel/carrousel.component';
 })
 export class SkillComponent {
   public itemsFirst = [
-    '/assets/img/skills/html.svg',
-    '/assets/img/skills/css-3.svg',
-    '/assets/img/skills/javascript.svg',
-    '/assets/img/skills/nodejs.svg',
-    '/assets/img/skills/angular.svg',
-    '/assets/img/skills/bootstrap.svg',
-    '/assets/img/skills/tailwind-css.svg',
+    {
+      title:'HTML',
+      image: '/assets/img/skills/html.svg',
+    },
+    {
+      title:'CSS',
+      image:'/assets/img/skills/css-3.svg'
+    },
+    {
+      title:'Javascript',
+      image:'/assets/img/skills/javascript.svg'
+    },
+    {
+      title:'Nodejs',
+      image:'/assets/img/skills/nodejs.svg'
+    },
+    {
+      title:'Angular',
+      image:'/assets/img/skills/angular.svg'
+    },
+    {
+      title:'Bootstrap',
+      image:'/assets/img/skills/bootstrap.svg'
+    },
+    {
+      title:'Tailwindcss',
+      image:'/assets/img/skills/tailwind-css.svg'
+    },
   ]  
   public itemsSecond = [
-    '/assets/img/skills/postgresql.svg',
-    '/assets/img/skills/php.svg',
-    '/assets/img/skills/docker.svg',
-    '/assets/img/skills/laravel.svg',
-    '/assets/img/skills/mongodb.svg',
-    '/assets/img/skills/mysql-logo.svg',
-    '/assets/img/skills/figma.svg',
+    {
+      title:'Postgresql',
+      image:'/assets/img/skills/postgresql.svg'
+    },
+    {
+      title:'Php',
+      image:'/assets/img/skills/php.svg'
+    },
+    {
+      title:'Docker',
+      image:'/assets/img/skills/docker.svg'
+    },
+    {
+      title:'Laravel',
+      image:'/assets/img/skills/laravel.svg'
+    },
+    {
+      title:'Mongodb',
+      image:'/assets/img/skills/mongodb.svg'
+    },
+    {
+      title:'Mysql',
+      image:'/assets/img/skills/mysql-logo.svg'
+    },
+    {
+      title:'Figma',
+      image:'/assets/img/skills/figma.svg'
+    },
+    {
+      title:'Postman',
+      image:'/assets/img/skills/postman-icon.svg'
+    }
   ]
 }
