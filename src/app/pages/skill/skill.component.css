@@ -2,11 +2,6 @@
     background-color: #ed182e;
     padding-bottom: 70px;
 }
-@media ( max-width:768px) {
-    .skill{
-
-    }
-}
 @media ( max-width:1400px) {
     .skill .skill-container{
         display: none;
