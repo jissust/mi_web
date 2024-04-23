@@ -7,7 +7,15 @@
     display: block;
 }
 
-.body{
+body{
     font-family: "Poppins", sans-serif;
+    background-image: url('../src/assets/img/home.jpg');
+    background-repeat: repeat;
+    background-position: right;
+    background-attachment: fixed;
+    background-color: #ed182e;
 }
-
+h1,
+.h1{
+    color: #FFFFFF !important;
+}

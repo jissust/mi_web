@@ -1,7 +1,11 @@
 .skill{
-    background-color: #ed182e;
     padding-bottom: 70px;
     display: block;
+}
+.skill .skill-container{
+    background-color: #ed182e;
+    padding: 20px;
+    border-radius: 10px;
 }
 @media ( max-width:1200px) {
     .skill .skill-container{
