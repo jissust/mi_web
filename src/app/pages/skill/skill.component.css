@@ -1,24 +1,22 @@
 .skill{
     background-color: #ed182e;
     padding-bottom: 70px;
+    display: block;
 }
-@media ( max-width:1400px) {
+@media ( max-width:1200px) {
     .skill .skill-container{
         display: none;
     }
 }
-
 .skill .skill-container img{
     width: 150px;
     padding: 20px;
 }
-
 @media ( max-width:1400px) {
     .skill .skill-container img{
         width: 130px;
     }   
 }
-
 .skill-container-mobile{
     display: none;
 }
