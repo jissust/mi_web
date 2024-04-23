@@ -12,16 +12,6 @@ import { CUSTOM_ELEMENTS_SCHEMA, Component, Input } from '@angular/core';
 export class CarrouselComponent {
   @Input() items:any;
 
-  /*public items = [
-    '/assets/img/skills/html.svg',
-    '/assets/img/skills/css-3.svg',
-    '/assets/img/skills/javascript.svg',
-    '/assets/img/skills/nodejs.svg',
-    '/assets/img/skills/angular.svg',
-    '/assets/img/skills/bootstrap.svg',
-    '/assets/img/skills/tailwind-css.svg',
-  ]*/
-
   constructor(){
 
   }
