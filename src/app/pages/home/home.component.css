@@ -2,12 +2,14 @@
     font-family: "Poppins", sans-serif;
     display: flex;
     align-items: center;
-    padding-left: 15%;
+    padding-left: 15%;;
     overflow-x: hidden;
-    /*background-image: url(../../../assets/img/home.jpg);
-    background-repeat: repeat;
-    background-position: right;
-    background-attachment: fixed;*/
+}
+@media (max-width: 768px) {
+    .home{
+        align-items: center;
+        padding-left: 0;
+    }
 }
 .home img{
     position: absolute;
@@ -23,7 +25,11 @@
  }
 
 .home h1{
+    text-align: center;
     font-size: 4rem;
+}
+.home h2{
+    color: #FFFFFF;
 }
 .home-text{
     position: relative;

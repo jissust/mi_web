@@ -11,9 +11,16 @@ body{
     font-family: "Poppins", sans-serif;
     background-image: url('../src/assets/img/home.jpg');
     background-repeat: repeat;
-    background-position: right;
+    background-position: left;
     background-attachment: fixed;
     background-color: #ed182e;
+    background-size: 400px;
+}
+@media (min-width:768px) {
+    body{
+        background-position: right;
+        background-size: 700px;
+    }
 }
 h1,
 .h1{
