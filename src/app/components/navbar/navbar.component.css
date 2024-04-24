@@ -16,3 +16,10 @@
     transition: background-color 0.5s ease;
     box-shadow: rgba(17, 17, 26, 1.1) 0 0px 13px;
 }
+
+.navbar-brand.logo{
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    font-weight: bolder;
+    margin: 0;
+}
