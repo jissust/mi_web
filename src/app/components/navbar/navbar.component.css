@@ -23,3 +23,7 @@
     font-weight: bolder;
     margin: 0;
 }
+.navbar-toggler{
+    border: none;
+    box-shadow: none;
+}
