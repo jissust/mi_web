@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-//import AOS from 'aos';
 
 @Component({
   selector: 'app-home',
@@ -11,10 +10,6 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
-    //AOS.init({disable: 'mobile'});
-    //AOS.refresh();
-  }
-  ejecutar(){
-    console.log("ejecutar")
+
   }
 }
