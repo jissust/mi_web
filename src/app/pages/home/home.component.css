@@ -2,13 +2,14 @@
     font-family: "Poppins", sans-serif;
     display: flex;
     align-items: center;
-    padding-left: 15%;;
+    justify-content: center;
+    /*padding-left: 15%;;*/
     overflow-x: hidden;
 }
 @media (max-width: 768px) {
     .home{
         align-items: center;
-        padding-left: 0;
+        /*padding-left: 0;*/
     }
 }
 .home img{
