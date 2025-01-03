@@ -66,6 +66,10 @@ export class SkillService {
     {
       title:'Postman',
       image:'/assets/img/skills/postman-icon.svg'
+    },
+    {
+      title: 'Wordpress',
+      image: '/assets/img/skills/wordpress.svg'
     }
   ]
 
@@ -133,6 +137,10 @@ export class SkillService {
     {
       title:'Github',
       image:'/assets/img/skills/github.svg'
+    },
+    {
+      title: 'Wordpress',
+      image: '/assets/img/skills/wordpress.svg'
     }    
   ]
 
