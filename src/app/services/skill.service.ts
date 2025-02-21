@@ -33,6 +33,10 @@ export class SkillService {
       title:'Tailwindcss',
       image:'/assets/img/skills/tailwind-css.svg'
     },
+    {
+      title:'ReactJS',
+      image:'/assets/img/skills/react.svg'
+    }
   ]  
   public itemsSecond = [
     {
@@ -70,10 +74,14 @@ export class SkillService {
     {
       title: 'Wordpress',
       image: '/assets/img/skills/wordpress.svg'
-    }
+    }    
   ]
 
   public items = [
+    {
+      title:'ReactJS',
+      image:'/assets/img/skills/react.svg'
+    },
     {
       title:'Angular',
       image:'/assets/img/skills/angular.svg'
