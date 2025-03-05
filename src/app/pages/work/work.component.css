@@ -30,4 +30,5 @@
 }
 .card-img-container{
     overflow: hidden;
+    max-height: 200px;
 }
