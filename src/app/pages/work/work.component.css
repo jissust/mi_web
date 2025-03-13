@@ -31,4 +31,5 @@
 .card-img-container{
     overflow: hidden;
     max-height: 200px;
+    padding: 5px 5px 0 5px;
 }
