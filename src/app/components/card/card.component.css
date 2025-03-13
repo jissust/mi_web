@@ -1,0 +1,31 @@
+
+.card{
+    background-color: #ed182e;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+.card .card-body h5.card-title{
+    font-size: 16px;
+}
+.card ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+a.access{
+    text-decoration: none;
+}
+.card-img-top{
+    scale:1;
+    transition: scale 0.5s ease;
+}
+a.access:hover .card .card-img-top{
+    scale: 1.1;
+    transition: scale 0.5s ease;
+}
+.card-img-container{
+    overflow: hidden;
+    max-height: 200px;
+    padding: 5px 5px 0 5px;
+}

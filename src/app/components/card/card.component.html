@@ -1,0 +1,29 @@
+<a href="{{ href }}" class="access" target="_blank">
+  <div class="card">
+    <div class="card-img-container">
+      <img class="card-img-top" src="{{ image }}" alt="{{ title }}" />
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">{{ title }}</h5>
+      <div class="card-text">
+        <ul NgIf="skills.length > 0">
+          <li *ngFor="let skill of skills">
+            <a
+              *ngIf="skill.href.length > 0"
+              href="{{ skill.href }}"
+              target="_blank"
+            >
+              <img src="{{ skill.image }}" alt="" style="width: 30px" />
+            </a>
+            <img
+              *ngIf="skill.href.length == 0"
+              src="{{ skill.image }}"
+              alt=""
+              style="width: 30px"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</a>
