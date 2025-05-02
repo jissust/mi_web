@@ -13,12 +13,13 @@
               href="{{ skill.href }}"
               target="_blank"
             >
-              <img src="{{ skill.image }}" alt="" style="width: 30px" />
+              <img src="{{ skill.image }}" alt="{{ skill.title }}" title="{{ skill.title }}" style="width: 30px" />
             </a>
             <img
               *ngIf="skill.href.length == 0"
               src="{{ skill.image }}"
-              alt=""
+              alt="{{ skill.title }}"
+              title="{{ skill.title }}"
               style="width: 30px"
             />
           </li>

@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 interface Skill {
   image: string;
   href: string;
+  title: string;
 }
 
 @Component({
