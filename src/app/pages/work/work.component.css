@@ -6,7 +6,7 @@
 .work .card{
     background-color: #ed182e;
     font-family: 'Poppins', sans-serif;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
 }
 .work .card .card-body h5.card-title{
     font-size: 16px;
