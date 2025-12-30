@@ -74,6 +74,10 @@ export class SkillService {
     {
       title: 'Wordpress',
       image: '/assets/img/skills/wordpress.svg'
+    },
+    {
+      title: 'Strapi',
+      image: '/assets/img/skills/strapi-logo.svg'
     }    
   ]
 
@@ -149,6 +153,10 @@ export class SkillService {
     {
       title: 'Wordpress',
       image: '/assets/img/skills/wordpress.svg'
+    },
+    {
+      title: 'Strapi',
+      image: '/assets/img/skills/strapi-logo.svg'
     }    
   ]
 
